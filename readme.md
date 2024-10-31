@@ -14,6 +14,9 @@ Pendiente:
 ○ Agregar información tipo popup en modos de pago (cbu/alias...)
 ○ Revisar y marcar con comentarios el archivo de estilos
 ○ Agregar al sitio el nombre "Reina Victoria" "Las delicias de Maru" es un subtítulo
+○ Corregir para correcta visualización a 450 píxeles de ancho
+	a menos de 470 píxeles de ancho el menú de navegación se rompe
+	a menos de 466 píxeles de ancho se muestra sólo un producto por fila
 
 Completado:
 
