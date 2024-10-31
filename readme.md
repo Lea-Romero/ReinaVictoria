@@ -13,6 +13,7 @@ Pendiente:
 ○ Agregar mousover en los productos para que se vean más grandes
 ○ Agregar información tipo popup en modos de pago (cbu/alias...)
 ○ Revisar y marcar con comentarios el archivo de estilos
+○ Agregar al sitio el nombre "Reina Victoria" "Las delicias de Maru" es un subtítulo
 
 Completado:
 
