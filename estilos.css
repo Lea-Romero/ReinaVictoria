@@ -1,0 +1,177 @@
+html {
+    background-color: #ffc6e9;
+    font-size: 30;
+    color:black;
+    scroll-behavior: smooth;
+}
+
+body {
+    border: 10px dotted rgba(137, 43, 226, 0.185);
+    padding: .5rem;
+}
+
+
+header { 
+    text-align: center;
+}
+
+
+.BarraSup {
+    background-color: #ffc6e9;
+    text-align: center;
+}
+
+h1{
+    font-family: Spicy Rice;
+    font-size: 2.5rem;
+    color: blueviolet;
+    text-align: center;
+}
+
+h2{
+    background-color: #ffc6e9;
+    text-align: center;
+}
+
+h3 {
+    color: beige;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'Roboto';
+}
+
+
+/* si quiero ser especifica y aplicar estilo de las listas en nav.. */
+header nav li {
+    display: inline;
+    border: 1px solid #8d1f91;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: 0.2rem .3rem;
+    list-style: none;
+}
+
+.listaproductos {
+    list-style: none;
+}
+
+.listaaccesos {
+    list-style: none;
+}
+
+#comocomprar li {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.productos{
+    background-color: #eeb5d8 ;
+    border-radius: .5rem;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.producto {
+    background-color: #faabfd;
+    grid-template-columns: repeat(autofit, minmax(13rem, 1fr)) ;
+    width: 10rem;
+    border: 1px solid violet;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.producto p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.producto img {
+    width: 100%;
+}
+
+
+.producto h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    color: blueviolet;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.producto a {
+    font-weight: bold;
+    color: rgb(92, 13, 116);
+    background-color: rgb(132, 192, 93);
+    border-radius: 0.7rem;
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+}
+
+.reseñas {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(13rem, 1fr)) ;
+    grid-template-rows: 20rem, 20rem;
+    gap: 1rem;
+}
+
+.reseña cite {
+    color: rgb(255, 255, 255);
+}
+
+.reseña{
+    background: rgb(255,198,233);
+    background: linear-gradient(180deg, rgba(255,198,233,1) 69%, rgba(201,0,203,1) 100%); 
+    border: 1px solid violet;
+    border-radius: .5rem;
+    margin: .5rem;
+    padding: .8rem;
+}
+
+
+.elemento1 {
+    color: rgb(119, 0, 255);
+    background-color: #8d1f91;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+form {
+    padding: 3%;
+    font-family: 'Roboto';
+    color: #012aad;
+    width: 40vw;
+    text-align: center;
+    background-image: url('Imagenes/Fondo.webp');
+    background-size: center;
+}
+
+
+@media (width >1306px) {
+    .reseñas {
+    grid-template-columns: repeat(3, 1fr);
+    }
+    form {
+        width: 450px;
+    }
+}
+.redes {
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+}
+
+#dondeestamos {
+    text-align: center;
+}
